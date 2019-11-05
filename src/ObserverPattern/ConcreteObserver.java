@@ -1,3 +1,5 @@
+package ObserverPattern;
+
 public class ConcreteObserver implements Observer {
     private double googlePrice;
 

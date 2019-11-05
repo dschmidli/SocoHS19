@@ -1,3 +1,5 @@
+package IteratorPattern;
+
 public class DinnerMenuIterator implements Iterator {
     MenuItem[] items;
     int position;

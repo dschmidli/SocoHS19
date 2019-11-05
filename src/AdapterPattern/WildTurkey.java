@@ -1,3 +1,5 @@
+package AdapterPattern;
+
 public class WildTurkey implements Turkey {
 
     @Override

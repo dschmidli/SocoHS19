@@ -1,3 +1,5 @@
+package IteratorPattern;
+
 public class MenuItem {
     String name;
     boolean vegetarian;

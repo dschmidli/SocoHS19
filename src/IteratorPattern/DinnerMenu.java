@@ -1,3 +1,5 @@
+package IteratorPattern;
+
 public class DinnerMenu {
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
