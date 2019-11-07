@@ -1,6 +1,6 @@
 
 # Assignment 3
-If the images are not viewable we also uploaded a pdf file (answers.pdf).
+If the images are not viewable we also uploaded a pdf file (Answers.pdf).
 ## Part 1
 ### Singleton
 
