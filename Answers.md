@@ -9,12 +9,12 @@ We implemented the Singleton-Pattern in the “Board” class and the “Scorebo
 because it should have only one instance of each of them during the running program. 
 Furthermore, the implementation of this pattern provides a global point of access the instance of both classes. 
 Therefore, we don’t have to give the instance of the board to the pieces.
-![Board](/img/singleton_classdiagram_board.JPG")
-![Scoreboard”](./img/singleton_classdiagram_scoreboard.JPG")
+![Board](/img/singleton_classdiagram_board.JPG)
+![Scoreboard”](./img/singleton_classdiagram_scoreboard.JPG)
 
 Sequence diagrams:
-![Board](/img/singleton_sequencediagram_board.JPG")
-![Scoreboard”](./img/singleton_sequencediagram_scoreboard.JPG")
+![Board](/img/singleton_sequencediagram_board.JPG)
+![Scoreboard”](./img/singleton_sequencediagram_scoreboard.JPG)
 
 
 
