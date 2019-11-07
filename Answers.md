@@ -10,12 +10,12 @@ Furthermore, the implementation of this pattern provides a global point of acces
 Therefore, we don’t have to give the instance of the board to the pieces.
 
 2. Class diagrams:
-![Board](/img/singleton_classdiagram_board.JPG)
-![Scoreboard”](./img/singleton_classdiagram_scoreboard.JPG)
+![Board](./img/singleton_classdiagram_board.JPG)
+![Scoreboard](./img/singleton_classdiagram_scoreboard.JPG)
 
 3. Sequence diagrams:
-![Board](/img/singleton_sequencediagram_board.JPG)
-![Scoreboard”](./img/singleton_sequencediagram_scoreboard.JPG)
+![Board](./img/singleton_sequencediagram_board.JPG)
+![Scoreboard](./img/singleton_sequencediagram_scoreboard.JPG)
 
 
 
