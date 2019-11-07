@@ -10,3 +10,5 @@ Therefore, we don’t have to give the instance of the board to the pieces.
 <img src="./img/singleton_classdiagram_board.JPG") height="300px"/>
 <img src="./img/singleton_classdiagram_scoreboard.JPG") height="300px"/>
 
+![picture](./img/singleton_classdiagram_scoreboard.JPG")
+
