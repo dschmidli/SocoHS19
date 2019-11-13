@@ -1,9 +1,11 @@
+package Threads;
+
 public class MyThread implements Runnable{
     int time;
     private boolean state;
 
-    public MyThread(int time) {
-        this.time = time;
+    public MyThread(int timeInMillis) {
+        time = timeInMillis;
         state = false;
     }
 
