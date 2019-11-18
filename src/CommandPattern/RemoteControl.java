@@ -1,5 +1,8 @@
 package CommandPattern;
 
+import java.util.Scanner;
+import java.util.TreeMap;
+
 public class RemoteControl {
 
     Command theCommand;
@@ -35,5 +38,4 @@ public class RemoteControl {
         pressed = new RemoteControl(lightRed);
         pressed.pressButton();
     }
-
 }

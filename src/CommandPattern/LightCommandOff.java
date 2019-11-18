@@ -1,6 +1,6 @@
 package CommandPattern;
 
-public class LightCommandOff implements Command{
+public class LightCommandOff implements Command {
 
     Light theLight;
 

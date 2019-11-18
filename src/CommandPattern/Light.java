@@ -1,5 +1,7 @@
 package CommandPattern;
 
+import java.util.concurrent.TimeUnit;
+
 public class Light {
 
     private String color = "yellow";
@@ -33,5 +35,13 @@ public class Light {
         else {
             System.err.println("You have to turn the light on first!");
         }
+    }
+
+    public void lightTimer(int newt) {
+        int t = newt;
+        for (int i=0; i < t; i++) {
+            System.out.println(i);
+        }
+
     }
 }
