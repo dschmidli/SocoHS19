@@ -29,11 +29,8 @@ public class Oven {
 
     public void setTimer(int t) {
         timerStatus = true;
-        for(int i = 0; i < t*1000; i++) {
-            if (i%1000 == 0) {
-                System.out.println(i);
-            }
-        }
+
+
         System.out.println("Time is over!!!");
     }
 }

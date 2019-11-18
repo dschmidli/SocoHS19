@@ -1,4 +1,4 @@
-public class OvenOnCommand implements Command {
+public class OvenOnCommand implements Command, Runnable {
     Oven oven;
 
     public OvenOnCommand(Oven newOven) {
@@ -8,5 +8,10 @@ public class OvenOnCommand implements Command {
     @Override
     public void execute() {
         oven.turnOn();
+    }
+
+    @Override
+    public void run() {
+        execute();
     }
 }
