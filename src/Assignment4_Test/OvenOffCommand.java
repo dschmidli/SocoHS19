@@ -1,6 +1,4 @@
-package Assignment4_Test;
-
-public class OvenOffCommand implements Command {
+public class OvenOffCommand implements Command, Runnable{
     Oven oven;
 
     public OvenOffCommand(Oven newOven) {
@@ -10,5 +8,10 @@ public class OvenOffCommand implements Command {
     @Override
     public void execute() {
         oven.turnOff();
+    }
+
+    @Override
+    public void run() {
+        execute();
     }
 }

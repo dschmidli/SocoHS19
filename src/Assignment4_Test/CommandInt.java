@@ -1,5 +1,3 @@
-package Assignment4_Test;
-
-public interface CommandInt extends Command {
+public interface CommandInt extends CommandDefault {
     public void execute(int i);
 }

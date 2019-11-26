@@ -1,5 +1,3 @@
-package CommandPattern;
-
 public class LightCommandYellow implements Command {
 
     Light theLight;

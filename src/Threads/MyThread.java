@@ -1,5 +1,3 @@
-package Threads;
-
 public class MyThread implements Runnable{
     int time;
     private boolean state;

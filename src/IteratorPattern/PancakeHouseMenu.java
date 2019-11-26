@@ -1,5 +1,3 @@
-package IteratorPattern;
-
 import java.util.ArrayList;
 
 public class PancakeHouseMenu {

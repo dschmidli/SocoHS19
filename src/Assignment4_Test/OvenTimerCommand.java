@@ -1,19 +1,20 @@
-package Assignment4_Test;
-
-public class OvenTimerCommand implements CommandInt{
+public class OvenTimerCommand implements CommandDefault, Runnable{
     Oven oven;
+    int t;
 
-    public OvenTimerCommand(Oven newOven) {
+    public OvenTimerCommand(Oven newOven, int newt) {
         oven = newOven;
+        t = newt;
     }
 
     @Override
     public void execute() {
-        this.execute(5);
+        oven.setTimer(t);
     }
 
+
     @Override
-    public void execute(int i) {
-        oven.setTimer(i);
+    public void run() {
+        execute();
     }
 }

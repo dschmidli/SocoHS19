@@ -1,5 +1,3 @@
-package CommandPattern;
-
 import java.util.concurrent.TimeUnit;
 
 public class Light {

@@ -1,4 +1,4 @@
-package Assignment4_Test;
+import java.util.concurrent.TimeUnit;
 
 public class Oven {
     private String name;
@@ -7,6 +7,7 @@ public class Oven {
 
 
     public Oven() {
+        name = "Oven";
         status = false;
     }
 
@@ -26,16 +27,30 @@ public class Oven {
     }
 
     public void turnOff() {
-        status = false;
+        if (!timerStatus) {
+            status = false;
+        }
+        else {
+            System.out.println("Timer not finished yet.");
+        }
+
     }
 
     public void setTimer(int t) {
-        timerStatus = true;
-        for(int i = 0; i < t*1000; i++) {
-            if (i%1000 == 0) {
-                System.out.println(i);
+        if (status) {
+            timerStatus = true;
+            try {
+                TimeUnit.SECONDS.sleep(t);
+            } catch (InterruptedException e) {
+                System.err.println("An error occurred!");
             }
+
         }
+        else {
+            System.out.println("You have to turn the oven on first.");
+        }
+
+
         System.out.println("Time is over!!!");
     }
 }

@@ -1,5 +1,3 @@
-package ObserverPattern;
-
 import java.util.ArrayList;
 
 public class ConcreteSubject implements Subject {
