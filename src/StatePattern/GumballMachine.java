@@ -1,19 +1,23 @@
 package StatePattern;
 
 public class GumballMachine {
-    GumballMachineState soldOutState;
-    GumballMachineState noQuarterState;
-    GumballMachineState hasQuarterState;
-    GumballMachineState soldState;
+    private GumballMachineState soldOutState;
+    private GumballMachineState noQuarterState;
+    private GumballMachineState hasQuarterState;
+    private GumballMachineState soldState;
 
-    GumballMachineState state;
-    int count = 0;
+    private GumballMachineState state;
+    int count;
 
     public GumballMachine(int c) {
         noQuarterState = new NoQuarterState(this);
+        soldOutState = new SoldOutState(this);
+        hasQuarterState = new HasQuarterState(this);
+        soldState = new SoldState(this);
 
-        state = soldOutState;
-        if (count > 0 ) {
+        count = c;
+        state = getSoldOutState();
+        if (count > 0) {
             state = noQuarterState;
         }
     }

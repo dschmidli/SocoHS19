@@ -9,21 +9,21 @@ public class SoldOutState implements GumballMachineState {
 
     @Override
     public void insertQuarter() {
-
+        System.out.println("Sorry, the gumball machine is sold out!");
     }
 
     @Override
     public void ejectQuarter() {
-
+        System.out.println("Sorry, the gumball machine is sold out!");
     }
 
     @Override
     public void turnCrank() {
-
+        System.out.println("Sorry, the gumball machine is sold out!");
     }
 
     @Override
     public void dispense() {
-
+        System.out.println("Sorry, the gumball machine is sold out!");
     }
 }
