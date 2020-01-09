@@ -12,7 +12,7 @@ public class Waiter {
         allMenus.add(pancakeHouseMenu);
         allMenus.add(dinerMenu);
         allMenus.add(cafeMenu);
-        allMenus.add(dessertMenu);
+        dinerMenu.add(dessertMenu);
 
         dinerMenu.add(new MenuItem("Pasta", true, 3.89));
         cafeMenu.add(new MenuItem("Espresso", true, 0.99));
