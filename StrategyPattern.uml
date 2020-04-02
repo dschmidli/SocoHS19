@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>StrategyPattern</OriginalElement>
+  <nodes>
+    <node x="161.25" y="439.0">StrategyPattern.AnimalPlay</node>
+    <node x="266.70238095238096" y="336.0">StrategyPattern.Bird</node>
+    <node x="125.0" y="103.0">StrategyPattern.Animal</node>
+    <node x="362.0" y="168.0">StrategyPattern.FlyWithWings</node>
+    <node x="168.98809523809524" y="0.0">StrategyPattern.FlyBehavior</node>
+    <node x="0.0" y="168.0">StrategyPattern.FlyNoWay</node>
+    <node x="117.95238095238096" y="336.0">StrategyPattern.Dog</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="StrategyPattern.FlyWithWings" target="StrategyPattern.FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="429.0" y="73.0" />
+      <point x="280.11309523809524" y="73.0" />
+      <point x="47.625" y="26.5" />
+    </edge>
+    <edge source="StrategyPattern.AnimalPlay" target="StrategyPattern.Bird">
+      <point x="18.125" y="-26.5" />
+      <point x="251.875" y="409.0" />
+      <point x="286.70238095238096" y="409.0" />
+      <point x="-20.0" y="26.5" />
+    </edge>
+    <edge source="StrategyPattern.Bird" target="StrategyPattern.FlyWithWings">
+      <point x="26.666666666666657" y="-26.5" />
+      <point x="333.3690476190476" y="311.0" />
+      <point x="429.0" y="311.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="StrategyPattern.Bird" target="StrategyPattern.Animal">
+      <point x="-26.666666666666657" y="-26.5" />
+      <point x="280.0357142857143" y="311.0" />
+      <point x="260.625" y="311.0" />
+      <point x="27.125" y="91.5" />
+    </edge>
+    <edge source="StrategyPattern.Dog" target="StrategyPattern.Animal">
+      <point x="0.0" y="-26.5" />
+      <point x="158.95238095238096" y="311.0" />
+      <point x="152.125" y="311.0" />
+      <point x="-81.375" y="91.5" />
+    </edge>
+    <edge source="StrategyPattern.Dog" target="StrategyPattern.FlyNoWay">
+      <point x="-27.333333333333314" y="-26.5" />
+      <point x="131.61904761904765" y="311.0" />
+      <point x="52.5" y="311.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="StrategyPattern.AnimalPlay" target="StrategyPattern.Dog">
+      <point x="-54.375" y="-26.5" />
+      <point x="179.375" y="419.0" />
+      <point x="138.45238095238096" y="419.0" />
+      <point x="-20.5" y="26.5" />
+    </edge>
+    <edge source="StrategyPattern.Animal" target="StrategyPattern.FlyBehavior">
+      <point x="54.25" y="-91.5" />
+      <point x="287.75" y="83.0" />
+      <point x="248.36309523809524" y="83.0" />
+      <point x="15.875" y="26.5" />
+    </edge>
+    <edge source="StrategyPattern.FlyNoWay" target="StrategyPattern.FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="52.5" y="73.0" />
+      <point x="184.86309523809524" y="73.0" />
+      <point x="-47.625" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="165.0" y="176.5" />
+  <SelectedNodes>
+    <node>StrategyPattern.AnimalPlay</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
